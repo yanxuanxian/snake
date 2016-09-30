@@ -1,0 +1,68 @@
+body{
+	margin:0;
+	padding:0;
+}
+.bg{
+	position: fixed;
+	left:0;
+	right:0;
+	top:0;
+	bottom:0;
+	margin: auto;
+	/*background: #00070b;*/
+	background: url(bg.jpg) center center;
+}
+.scenc{
+	width:500px;
+	height:500px;
+	position: absolute;
+	left:0;
+	right:0;
+	top:0;
+	bottom:0;
+	margin: auto;
+}
+.block{
+	width:25px;
+	height:25px;
+	float: left;
+}
+.scenc .she{
+	background-image: url(body.jpg);
+	background-size: cover;
+	border-radius: 5px;
+}
+.start,.restart{
+	width:200px;
+	height:40px;
+	border-radius: 10px;
+	color:fuchsia;
+	background: #ccc;
+	outline: none;
+	position: absolute;
+	right:50%;
+	margin-right: -500px;
+	top:100px;
+	cursor: pointer;
+}
+.restart{
+	top:180px;
+}
+.start:active{
+	color:red;
+	background: #fff;
+}
+.restart:active{
+	color:red;
+	background: #fff;
+}
+h3{
+	width:200px;
+	height:40px;
+	text-align: center;
+	color:#eee;
+	position: absolute;
+	right:50%;
+	margin-right: -500px;
+	top:260px;
+}
